@@ -24,11 +24,17 @@ This project was designed as a practical hospitality analytics case study.
 - Which shifts are operationally underperforming?
 - When is the kitchen busiest?
 
+### Guest Performance
+- Which days generate the most complaints?
+- Which service channels have the highest complaint rates?
+- Which cuisines perform worst on complaints?
+- Which cuisines achieve the highest satisfaction scores?
+
 ### Customer Experience & Quality
 - How does server experience affect customer satisfaction?
 - How does chef experience affect food quality?
 - Is service quality a driver of return intent?
-- Which channels and cuisines generate the most complaints?
+- Which quality metrics most influence repeat business?
 
 ---
 
@@ -46,6 +52,7 @@ This project was designed as a practical hospitality analytics case study.
 ### Page 1 — Revenue Report
 Executive revenue dashboard focused on:
 
+![revenue page](Images/revenue.png)
 - Total Revenue
 - Total Orders
 - Average Revenue Per Order
@@ -57,6 +64,7 @@ Executive revenue dashboard focused on:
 ### Page 2 — Staffing & Operations
 Operational performance dashboard focused on:
 
+![staffing and operations page](Images/staffing&ops.png)
 - Average Staffing Level
 - Kitchen Load
 - Queue Length
@@ -65,16 +73,29 @@ Operational performance dashboard focused on:
 - Longest Wait Time Days/Shifts
 - Poorly Performing Shifts
 
-### Page 3 — Customer Experience & Quality
-Guest experience dashboard focused on:
+### Page 3 — Guest Performance Scores
+Guest outcome dashboard focused on:
 
+![guest performance scores  page](Images/performance.png)
 - Satisfaction Score
 - Complaint Rate
 - Return Intent
-- Food Quality
-- Service Quality
-- Impact of Staff Experience
-- Complaint Trends by Channel/Cuisine
+- Complaint Trends by Day of Week
+- Complaint Rates by Channel
+- Complaint Levels by Cuisine
+- Satisfaction Score by Cuisine
+
+### Page 4 — Customer Experience & Quality
+Experience improvement dashboard focused on:
+
+![clent experiencce page](Images/client_exp.png)
+- Average Food Quality
+- Average Service Quality
+- Return Intent Rate
+- Impact of Server Experience on Satisfaction
+- Impact of Chef Experience on Food Quality
+- Return Intent vs Food Quality
+- Service Quality vs Return Intent
 
 ---
 
@@ -92,11 +113,17 @@ Guest experience dashboard focused on:
 - Lunch and dinner periods created the highest kitchen load.
 - Certain shifts repeatedly underperformed on both wait time and complaints.
 
+### Guest Performance Insights
+- Weekend days generated the highest complaint levels.
+- Dine-in and delivery channels showed the highest complaint percentages.
+- Complaint rates varied significantly by cuisine category.
+- Some cuisines maintained stronger satisfaction scores despite demand pressure.
+
 ### Customer Experience Insights
 - Higher server experience improved satisfaction scores.
 - Higher chef experience improved food quality ratings.
 - Stronger service quality increased return intent.
-- Dine-in and delivery channels showed the highest complaint percentages.
+- Quality metrics strongly influenced repeat customer behavior.
 
 ---
 
@@ -109,13 +136,19 @@ Guest experience dashboard focused on:
 
 ### Operational Efficiency
 - Increase staffing during high wait-time weekend shifts.
+- Use a leaner menu to ensure low kitchen load and therefore higher food quality
 - Review workflows for underperforming shifts.
 - Improve kitchen readiness during lunch and dinner rushes.
 
 ### Guest Experience
+- Improve service recovery processes for dine-in and delivery channels.
+- Investigate recurring complaint patterns by cuisine and day.
+- Protect satisfaction scores during peak traffic periods.
+
+### Staff Development
 - Invest in staff training and retention.
 - Use experienced staff during peak service windows.
-- Reduce complaint drivers in dine-in and delivery channels.
+- Link service quality goals to repeat customer strategy.
 
 ---
 
